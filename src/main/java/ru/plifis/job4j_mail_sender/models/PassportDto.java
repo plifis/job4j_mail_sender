@@ -5,10 +5,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.sql.Timestamp;
 
-//@Data
-//@RequiredArgsConstructor
-//@NoArgsConstructor
-//@Getter
+
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class PassportDto {
     @JsonProperty("Series")
